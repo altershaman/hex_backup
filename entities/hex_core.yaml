@@ -120,14 +120,14 @@ entities:
         $append([
             {
               "title": 'Articles',
-              "location": 'Hexagon/Материалы',
+              "location": 'Документы/Hexagon/Материалы',
               "expand": true,
               "icon": ''
             }
           ],
           $$.docs.$spread().(
               *.hex_location ? {
-                  "location": "Hexagon/Материалы/" & *.hex_location,
+                  "location": "Документы/Hexagon/Материалы/" & *.hex_location,
                   "link": "entities/docs/blank?dh-doc-id=" & $keys()[0]
               }
           )
@@ -281,7 +281,7 @@ entities:
           )
 
 hexNav:
-  - title: Hexagon
+  - title: Документы/Hexagon
     link: "/entities/docs/blank?dh-doc-id=hex_main"
     includes:
       - title: Dashboards

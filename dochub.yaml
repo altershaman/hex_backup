@@ -10,7 +10,7 @@ imports:
   # - house_construction_example/dochub.yaml
 
   # - hex_lang/hex_lang.yaml
-  # - abstract_example/terminals_example.yaml
+  - docs/abstract_example/terminals.yaml
 
   # Examples used in docs (could be switched off)
   #- things/objects_example.yaml
